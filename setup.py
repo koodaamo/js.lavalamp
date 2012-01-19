@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.0'
+version = '1.1'
 
 long_description = (
     open('README.txt').read()
@@ -23,10 +23,10 @@ setup(name='js.lavalamp',
       classifiers=[
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='fanstatic lavalamp',
+      author='Petri Savolainen',
+      author_email='petri.savolainen@koodaamo.fi',
+      url='https://github.com/koodaamo/js.lavalamp',
       license='GPL',
 
       packages=find_packages(exclude=['ez_setup']),
@@ -36,6 +36,7 @@ setup(name='js.lavalamp',
       install_requires=[
           'setuptools',
           'fanstatic',
+          'js.jquery',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
